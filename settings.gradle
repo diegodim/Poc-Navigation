@@ -1,0 +1,14 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "Poc Navigation"
+include ':app'
+include ':intent'
+include ':features:auth'
+include ':features:onboarding'
+include ':di'
